@@ -14,7 +14,7 @@ public class MVCPatternDemo {
 
 		sc.UpdateView();
 		
-		sc.setStudentName("Erdal2345345345");
+		sc.setStudentName("hebekekeke2345345345");
 		
 		sc.UpdateView();
 		
@@ -25,7 +25,7 @@ public class MVCPatternDemo {
 	private static Student getStudentFromDB()
 	{
 		Student student = new Student();
-		student.setName("Erdal");
+		student.setName("hebelelele");
 		student.SetrollNumber("35");
 		
 		return student;
