@@ -6,11 +6,11 @@ public class MVCPatternDemo {
 		
 		System.out.println("hello");
 	
-		Student model = getStudentFromDB();
+		Student modelnew = getStudentFromDB();
 			
-		StudentView view = new StudentView();
+		StudentView viewnew = new StudentView();
 		
-		StudentController sc = new StudentController(model,view);
+		StudentController sc = new StudentController(modelnew,viewnew);
 
 		sc.UpdateView();
 		
