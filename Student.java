@@ -26,7 +26,7 @@ public class Student {
 	
 	@Override
 	
-	public String toStringFunction(){
+	public String toStringFunction2(){
 		
 		return name+rollNumber;
 		
