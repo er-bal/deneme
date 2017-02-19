@@ -8,9 +8,9 @@ public class MVCPatternDemo {
 	
 		Student model = getStudentFromDB();
 			
-		StudentView view = new StudentView();
+		StudentView viewnew = new StudentView();
 		
-		StudentController sc = new StudentController(model,view);
+		StudentController sc = new StudentController(model,viewnew);
 
 		sc.UpdateView();
 		
