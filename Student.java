@@ -14,9 +14,9 @@ public class Student {
 		
 	}
 	
-	public void SetrollNumber(String rollNumber111)
+	public void SetrollNumber(String rollNumber333)
 	{
-		this.rollNumber = rollNumber111;
+		this.rollNumber = rollNumber333;
 	}
 	
 	public String getrollNumber()
