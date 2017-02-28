@@ -26,7 +26,7 @@ public class Student {
 	
 	@Override
 	
-	public String toString22222222(){
+	public String toStringSon(){
 		
 		return name+rollNumber;
 		
